@@ -3,6 +3,7 @@ package com.example.week4codingtest
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         val array = intArrayOf(-6, 3, 5, 7)
         val newArray = squareAndSortArray(array)
-        Log.d("TAG", newArray[0].toString())
+        Log.d("TAG", Arrays.toString(newArray))
 
         Log.d("TAG", stringCopies("catcowcat", "cat", 2).toString())
     }
